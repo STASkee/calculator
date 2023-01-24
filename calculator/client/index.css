@@ -1,0 +1,34 @@
+*{
+    margin: 100;
+    padding: 100;
+}
+html{
+background-color: #3a2626;
+text-align: center;
+
+}
+.mainbody input {
+
+    width: 310px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #c0c0c0;;
+
+  }
+  
+
+.mainbody button{
+    background-color: #c0c0c0;
+    border: 3px;
+    border-color: rgb(125, 11, 11);
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+

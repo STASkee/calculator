@@ -1,0 +1,8 @@
+FROM node
+WORKDIR /calculator 
+COPY package*.json ./
+#залежнысть
+RUN npm i 
+EXPOSE 3000
+COPY . . 
+CMD  ["npm", "run", "start"]
